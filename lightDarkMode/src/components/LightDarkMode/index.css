@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.Background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.bgclass {
+  text-align: center;
+  padding: 20px;
+  border: 1px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+}
+
+.DarkModeCon {
+  background-color: black;
+}
+.light {
+  color: #fff;
+}
+
+.btn {
+  height: 30px;
+}

@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.divContiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0f172a;
+  height: 500px;
+  min-height: 100vh;
+}
+.imgContiner {
+  align-items: center;
+}
+.img {
+  height: 150px;
+  width: 150px;
+}
+.heading {
+  font-family: "Roboto";
+  color: #f8fafc;
+}
+@media screen and (min-width: 768px) {
+  .img {
+    height: 250px;
+    width: 250px;
+  }
+}

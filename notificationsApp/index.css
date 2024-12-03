@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.message-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px;
+  margin: 10px;
+  width: 230px;
+  height: 55px;
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 15px;
+  border: 0px;
+  border-radius: 10px;
+}
+
+.icon-img {
+  height: 20px;
+  margin: 10px;
+}
+#primary-background {
+  background-color: #0b69ff;
+}
+#success-background {
+  background-color: #2dca73;
+}
+#warning-background {
+  background-color: #ffb800;
+}
+#danger-background {
+  background-color: #ff0b37;
+}

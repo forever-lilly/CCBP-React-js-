@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.main-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #dfe2e5, #ace0f9);
+  min-height: 100vh;
+  cursor: pointer;
+}
+.search-icon {
+  height: 25px;
+  align-content: flex-end;
+}
+.searchInput {
+  outline: none;
+  min-width: 50%;
+  background-color: transparent;
+  border: 0px solid #000000;
+}
+.ULSC {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1e293b;
+  background-color: transparent;
+  font-family: 'BreeSerif';
+  border: 1px solid #1e293b;
+  border-radius: 5px;
+  height: 35px;
+  width: 230px;
+}
+.UList-select {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.UList-apps {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}

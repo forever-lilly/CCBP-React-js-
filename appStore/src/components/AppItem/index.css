@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.list {
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.app-list-img {
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+.app-name {
+  color: #1e293b;
+  font-size: 15px;
+  font-family: 'Bree Serif';
+  font-weight: 200;
+  text-align: center;
+}

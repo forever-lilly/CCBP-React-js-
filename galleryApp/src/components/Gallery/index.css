@@ -1,0 +1,19 @@
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 10px;
+}
+.main-image {
+  width: 100%;
+  border-radius: 10px;
+}
+.UList {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+
+  padding: 0px;
+  margin: 0px;
+}

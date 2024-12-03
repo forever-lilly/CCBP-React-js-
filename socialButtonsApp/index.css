@@ -1,0 +1,63 @@
+body {
+  margin: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.social-btn-bg {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/social-buttons-bg.png");
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 35px;
+  font-family: "bree serif";
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 45px;
+    font-family: "bree serif";
+    color: #ffffff;
+  }
+}
+.inside_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .inside_container {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+button {
+  font-family: "roboto";
+  font-size: 17px;
+  color: #fff;
+  height: 35px;
+  margin: 20px;
+  border: 0;
+  width: 80px;
+  border-radius: 10px;
+}
+.social-btn-like {
+  background-color: #eab308;
+}
+.social-btn-comment {
+  width: 130px;
+  color: #323f4b;
+}
+.social-btn-share {
+  width: 100px;
+  background-color: #1d4ed8;
+}
+@media screen and (min-width: 576px) {
+}

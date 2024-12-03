@@ -1,0 +1,40 @@
+/* Write your CSS code here. */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(#ffeeee, #ffc0bb);
+}
+
+.feedback-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 250px;
+  min-height: 400px;
+  padding: 25px;
+  background-color: #ffffff;
+}
+
+.emojis-container {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 100%;
+}
+
+.emoji {
+  width: 75px;
+}
+
+.button {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}

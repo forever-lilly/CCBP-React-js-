@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.select-btn {
+  background-color: transparent;
+  border: 0px;
+  color: #7b8794;
+  font-size: 15px;
+  font-family: 'Bree Serif';
+  font-weight: 200;
+}
+
+.List {
+  background-color: transparent;
+  padding: 10px;
+  list-style: none;
+  border: none;
+}

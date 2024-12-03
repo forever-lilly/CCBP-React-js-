@@ -1,0 +1,22 @@
+/* Write your CSS here */
+.main-bg {
+  display: flex;
+  justify-content: center;
+}
+.inside-search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%px;
+  max-width: 1140px;
+}
+.heading {
+  text-align: center;
+}
+.listCon {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
